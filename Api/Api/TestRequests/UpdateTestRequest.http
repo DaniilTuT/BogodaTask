@@ -1,0 +1,16 @@
+@id = 77bb0607-80a0-44dd-90ff-324f43b23a95
+PUT http://localhost:5089/api/Person/Update
+Content-Type: application/json
+
+{
+  "fullName":
+  {
+    "firstName": "NeProsto",
+    "lastName": "Iporniii",
+    "middleName": null
+  } ,
+  "gender": 2,
+  "birthDay": "2000-02-21",
+  "phoneNumber": "+37377738224",
+  "id": "{{id}}"
+}

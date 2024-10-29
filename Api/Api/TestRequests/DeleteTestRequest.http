@@ -1,0 +1,3 @@
+@id = c0a517d6-c11b-4321-880e-7dc0228161c9
+
+DELETE http://localhost:5089/api/Person/Delete?id={{id}}

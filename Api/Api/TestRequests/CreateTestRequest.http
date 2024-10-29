@@ -1,0 +1,14 @@
+POST http://localhost:5089/api/Person/Create
+Content-Type: application/json
+
+{
+  "fullName": {
+    "firstName": "Prosto",
+    "lastName": "Iiii",
+    "middleName": null
+  },
+  "gender": 1,
+  "birthDay": "2000-02-21",
+  "age": 0,
+  "phoneNumber": "+37377731224"
+}
